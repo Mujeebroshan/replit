@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mujeebroshan.github.io/replit/sitemap.xml
