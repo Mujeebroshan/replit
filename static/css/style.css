@@ -1,0 +1,123 @@
+/* Custom styles to complement Bootstrap */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom spacing */
+section {
+  padding: 5rem 0;
+}
+
+/* Hero section styling */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Project card hover effect */
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills pill styling */
+.skill-pill {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  font-size: 0.9rem;
+}
+
+/* Custom section divider */
+.section-divider {
+  position: relative;
+  height: 1px;
+  background-color: var(--bs-gray-600);
+  margin: 2rem 0;
+}
+
+.section-divider::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 50px;
+  height: 7px;
+  background-color: var(--bs-primary);
+  border-radius: 10px;
+}
+
+/* Experience timeline */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: var(--bs-primary);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.35rem;
+  top: 0.5rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--bs-light);
+  border: 3px solid var(--bs-primary);
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.back-to-top.visible {
+  opacity: 1;
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus, input:focus, textarea:focus {
+  outline: 3px solid var(--bs-primary);
+  outline-offset: 2px;
+}
+
+/* Form feedback */
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}

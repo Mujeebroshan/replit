@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#212529" rx="10" ry="10" />
+  
+  <!-- Task management board elements -->
+  <rect x="50" y="60" width="60" height="100" fill="#6c757d" opacity="0.2" rx="5" ry="5" />
+  <rect x="120" y="60" width="60" height="100" fill="#6c757d" opacity="0.2" rx="5" ry="5" />
+  <rect x="190" y="60" width="60" height="100" fill="#6c757d" opacity="0.2" rx="5" ry="5" />
+  
+  <!-- Task cards -->
+  <rect x="55" y="80" width="50" height="20" fill="#fd7e14" opacity="0.7" rx="3" ry="3" />
+  <rect x="55" y="110" width="50" height="20" fill="#fd7e14" opacity="0.7" rx="3" ry="3" />
+  
+  <rect x="125" y="80" width="50" height="20" fill="#0dcaf0" opacity="0.7" rx="3" ry="3" />
+  <rect x="125" y="110" width="50" height="20" fill="#0dcaf0" opacity="0.7" rx="3" ry="3" />
+  <rect x="125" y="140" width="50" height="20" fill="#0dcaf0" opacity="0.7" rx="3" ry="3" />
+  
+  <rect x="195" y="80" width="50" height="20" fill="#198754" opacity="0.7" rx="3" ry="3" />
+  
+  <!-- Column titles -->
+  <text x="80" y="70" font-family="Arial, sans-serif" font-size="12" fill="#f8f9fa" text-anchor="middle">To Do</text>
+  <text x="150" y="70" font-family="Arial, sans-serif" font-size="12" fill="#f8f9fa" text-anchor="middle">In Progress</text>
+  <text x="220" y="70" font-family="Arial, sans-serif" font-size="12" fill="#f8f9fa" text-anchor="middle">Done</text>
+  
+  <!-- Project title -->
+  <text x="150" y="40" font-family="Arial, sans-serif" font-size="18" fill="#f8f9fa" text-anchor="middle" font-weight="bold">Task Management App</text>
+</svg>
